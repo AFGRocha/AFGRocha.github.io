@@ -6,7 +6,9 @@ import claustromania from "./assets/claustromania.png"
 import exchess from "./assets/exchess.png"
 import mari from "./assets/marikyuun.jpg"
 import hologarden from "./assets/hologarden.png"
-
+import tiwebsite from './assets/tiwebsite.jpg'
+import gbvsrstats from './assets/gbvsrstats.png'
+import stszeta from './assets/stszeta.jpg'
 
 export default function Portfolio() {
     return (
@@ -68,7 +70,29 @@ export default function Portfolio() {
                         Virtual pet game developed with pixi.js for browser and pc (with Electron)
                     </span>
                 </a>
-
+                <a class="portfolio-image-container" href='https://www.teamicarus.pt'>
+                    <img src={tiwebsite} />
+                    <span class="text-wrapper">
+                        <b>Team Icarus' official website</b>
+                       Website for Team Icarus built with Vue.
+                    </span>
+                </a>
+                <a class="portfolio-image-container" href='https://daikipt.itch.io/holo-garden'>
+                    <img src={gbvsrstats} />
+                    <span class="text-wrapper">
+                        <b>GBVSR Stats</b>
+                       Website for stats about GBVSR Tournaments and players built with Next.js.
+                    </span>
+                </a>
+            </div>
+            <div class="row">
+                <a class="portfolio-image-container" href='https://steamcommunity.com/sharedfiles/filedetails/?id=3657988262'>
+                    <img src={stszeta} />
+                    <span class="text-wrapper">
+                        <b>Zeta Slay the Spire Mod</b>
+                       Adds a playable character to Slay the Spire. (Java)
+                    </span>
+                </a>
             </div>
         </div>
     )
